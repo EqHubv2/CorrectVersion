@@ -1,1 +1,9 @@
-"v.2.6"
+local Window = Fluent:CreateWindow({
+    Title = "Universe v.2.6",
+    SubTitle = "by Space X",
+    TabWidth = 160,
+    Size = UDim2.fromOffset(600, 350),
+    Acrylic = true,
+    Theme = "Dark",
+    MinimizeKey = Enum.KeyCode.LeftControl 
+})
